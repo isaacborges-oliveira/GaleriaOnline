@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "vvvfrEU6VJahLPt8Tajhkv3gdM5EMJyb0IhQNaW6PmQ=",
+  "Source": "GaleriaOnline.Web.Api",
+  "BasePath": "_content/GaleriaOnline.Web.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
