@@ -1,12 +1,20 @@
 {
   "Version": 1,
-  "Hash": "vvvfrEU6VJahLPt8Tajhkv3gdM5EMJyb0IhQNaW6PmQ=",
+  "Hash": "7nDlK597ZLwD/A64jkgd9NXb8Z1xLZ++Aorjd49Nneg=",
   "Source": "GaleriaOnline.Web.Api",
   "BasePath": "_content/GaleriaOnline.Web.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "GaleriaOnline.Web.Api\\wwwroot",
+      "Source": "GaleriaOnline.Web.Api",
+      "ContentRoot": "C:\\Users\\43022067801\\Desktop\\GaleriaOnline\\GaleriaOnline.Web.Api\\GaleriaOnline.Web.Api\\wwwroot\\",
+      "BasePath": "_content/GaleriaOnline.Web.Api",
+      "Pattern": "**"
+    }
+  ],
   "Assets": [],
   "Endpoints": []
 }

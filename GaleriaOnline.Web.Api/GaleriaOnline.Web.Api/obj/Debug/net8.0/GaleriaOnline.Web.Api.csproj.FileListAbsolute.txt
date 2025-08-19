@@ -170,3 +170,5 @@ C:\Users\43022067801\Desktop\GaleriaOnline\GaleriaOnline.Web.Api\GaleriaOnline.W
 C:\Users\43022067801\Desktop\GaleriaOnline\GaleriaOnline.Web.Api\GaleriaOnline.Web.Api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\43022067801\Desktop\GaleriaOnline\GaleriaOnline.Web.Api\GaleriaOnline.Web.Api\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\43022067801\Desktop\GaleriaOnline\GaleriaOnline.Web.Api\GaleriaOnline.Web.Api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\43022067801\Desktop\GaleriaOnline\GaleriaOnline.Web.Api\GaleriaOnline.Web.Api\bin\Debug\net8.0\GaleriaOnline.Web.Api.staticwebassets.runtime.json
+C:\Users\43022067801\Desktop\GaleriaOnline\GaleriaOnline.Web.Api\GaleriaOnline.Web.Api\obj\Debug\net8.0\GaleriaOnline.Web.Api.sourcelink.json
