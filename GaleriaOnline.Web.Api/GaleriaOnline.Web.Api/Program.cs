@@ -1,4 +1,5 @@
 using GaleriaOnline.Web.Api.DbContextImagem;
+using GaleriaOnline.Web.Api.Interfaces;
 using GaleriaOnline.Web.Api.Repositories;
 using Microsoft.EntityFrameworkCore;
 
@@ -11,7 +12,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped<ImagemRepository, ImagemRepository>();   
+builder.Services.AddScoped<IImagemRepository, ImagemRepository>();
+
 
 builder.Services.AddDbContext<GaleriaOnlineDBContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
@@ -31,6 +33,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+// a sequencia importa muito !!!!!
+
+app.UseStaticFiles();
 
 app.UseHttpsRedirection();
 app.UseCors("CorsPolicy");
