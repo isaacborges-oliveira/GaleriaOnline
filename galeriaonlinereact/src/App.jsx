@@ -1,17 +1,7 @@
-import { useState } from 'react'
-
-import './App.css'
-import { Galeria } from './pages/galeria/Galeria'
-
+import { AppRoutes } from "/routes/Routes.jsx";
 
 function App() {
-
-  return (
-    <>
-     <Galeria/>
-     
-    </>
-  )
+  return <AppRoutes />;
 }
 
-export default App
+export default App;

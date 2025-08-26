@@ -1,12 +1,16 @@
+import { useNavigate } from "react-router-dom";
+import "./Botao.css";
 
-import "./Botao.css"
-export const Botao = ({nomeBotao}) => {
-    return(
-        <>
-        
-        <button className="botao" onClick="" type="submit">
-            {nomeBotao}
-        </button>
-        </>
-    )
-}
+export const Botao = ({ nomeBotao }) => {
+  const navigate = useNavigate();
+
+  return (
+    <button className="botao" onClick={() => navigate("/galeria")}>
+      {nomeBotao}
+    </button>
+  );
+};
+
+
+
+

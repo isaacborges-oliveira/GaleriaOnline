@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\43022067801\\Desktop\\GaleriaOnline\\GaleriaOnline.Web.Api\\GaleriaOnline.Web.Api\\wwwroot\\imagens\\3e9f4133-ba4a-4f54-901a-59c4bb95367d.png",
+      "PackagePath": "staticwebassets\\imagens\\3e9f4133-ba4a-4f54-901a-59c4bb95367d.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.GaleriaOnline.Web.Api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.GaleriaOnline.Web.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.GaleriaOnline.Web.Api.props",
+      "PackagePath": "build\\GaleriaOnline.Web.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.GaleriaOnline.Web.Api.props",
+      "PackagePath": "buildMultiTargeting\\GaleriaOnline.Web.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.GaleriaOnline.Web.Api.props",
+      "PackagePath": "buildTransitive\\GaleriaOnline.Web.Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

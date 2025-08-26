@@ -1,10 +1,11 @@
 import "./Card.css"
-import imagemCard from '../../assets/img/Captura de tela 2025-04-01 102632.png'
+
+
 import imagemPan from '../../assets/img/pen.svg'
 import imagemTrash from '../../assets/img/trash.svg'
 
 
-export const Card = ({tituloCard}) => {
+export const Card = ({tituloCard, imagemCard, funcDeletar, funcEditar}) => {
     return (
         <>
             <div className="cardDaImagem">
@@ -12,8 +13,8 @@ export const Card = ({tituloCard}) => {
                 <img  className="imgDoCard"src={imagemCard} alt="" />
 
                 <div className="icons">
-                    <img src={imagemPan} alt="" />
-                    <img src={imagemTrash} alt="" />
+                    <img  src={imagemPan} onClick={funcEditar}alt="" />
+                    <img src={imagemTrash} onClick={funcDeletar} alt="" />
                 </div>
             </div>
         </>

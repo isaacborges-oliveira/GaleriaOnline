@@ -1,0 +1,22 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #c7d9e5; 
+}
+
+.home-caixa {
+
+  padding: 10px 20px;
+  margin-bottom: 15px;
+}
+
+.home-caixa h1 {
+
+  color: #2b3a42;
+  text-align: center;
+  
+}
+
